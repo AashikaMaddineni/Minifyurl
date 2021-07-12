@@ -7,6 +7,6 @@ Current Features:
  Stores recent history of size 3 
  Minfies any valid URL
   
-View Live demo : https://minfy-url.netlify.app/
+View Live Demo : https://minfy-url.netlify.app/
 
 For more info: visit docs https://shrtco.de/docs/

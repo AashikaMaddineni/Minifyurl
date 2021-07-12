@@ -9,5 +9,4 @@ Current Features:
   
 View Live demo : https://minfy-url.netlify.app/
 
-For more info:
-visit docs https://shrtco.de/docs/
+For more info: visit docs https://shrtco.de/docs/

@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+  padding: 10px;
+  border: none;
+  font-weight: 700;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  min-width: 7vw;
+}
+
+  .btn:hover {
+        background-color: hotpink;
+  }
+
+.info-container {
+  display: flex;
+  margin-left: 8rem;
+  overflow: hidden;
+}
+
+    .info-container h1 {
+        font-size: 58px;
+        color: midnightblue;
+    }
+.info-container p {
+    color: midnightblue;
+}
+
+
+.container {
+  width: 80vw;
+  height: 25vh;
+  background-color: var(--dark-blue);  
+  border-radius: 10px;
+  margin: 20px 130px;
+  padding: 30px;
+  background-color: midnightblue;
+}
+
+.container input {
+  width: 60vw;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 5px;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.warning-text {
+  color: red;
+  font-size: 14px;
+  visibility: hidden;
+}
+
+.warning-text.active {
+  visibility: visible;
+}
+
+.container input.active {
+  border-color: red;
+}
+
+
+
+.btn {
+    width: auto;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-small {
+  padding: 0.5rem;
+  width: 4vw;
+  font-size: inherit;
+  margin-left: 1rem;
+}
+
+.link-card {
+  margin: 2rem 8rem;
+  padding: 0.5rem 1rem;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* End */
+
+/* Footer */
+.hh {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-github {
+    background: #125688;
+    color: white;
+}
+
+.foot {
+    background-color: midnightblue;
+    display: table;
+    width: 100%;
+    height: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-size: .875rem;
+}
+
+footer small {
+    color: #ccc;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.footer-nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+}
+
+    .footer-nav a:hover {
+        color: goldenrod;
+        transition: color .15s ease-in-out;
+    }
+
+#myBtn {
+    border: none;
+    border-radius: 30px;
+    background-color: goldenrod;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.fo {
+    font-size: 27px;
+}
+
+/* END Footer */
+
+
+
+/* responsive media query start */
+
+@media (max-width: 947px) {
+    .info-container h1 {
+        font-size: 70px;
+    }
+
+    .info-container h1 p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .info-container h1 {
+        font-size: 60px;
+    }
+
+   .info-container h1 p {
+            font-size: 32px;
+    }
+
+   
+}
+
+@media (max-width: 500px) {
+    .info-container h1 {
+        font-size: 27px;
+    }
+
+        .info-container h1 p {
+            font-size: 19px;
+        }
+}
+

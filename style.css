@@ -155,6 +155,8 @@ body {
 }
 
 .foot {
+    position: fixed;
+    bottom: 0;
     background-color: midnightblue;
     display: table;
     width: 100%;
